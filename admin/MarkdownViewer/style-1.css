@@ -1,0 +1,47 @@
+*{
+    font-size:25px;
+    word-wrap: break-word;
+}
+md-ht1{
+    display:block;
+    border-bottom: 1px solid gray;
+    font-size:55px;
+}
+md-ht2{
+    display:block;
+    border-bottom: 1px solid gray;
+    font-size:50px;
+}
+md-ht3{
+    display:block;
+    display:block;
+    font-size:45px;
+}
+md-ht4{
+    display:block;
+    display:block;
+    font-size:40px;
+}
+md-ht5{
+    display:block;
+    display:block;
+    font-size:35px;
+}
+md-ht6{
+    display:block;
+    display:block;
+    font-size:30px;
+}
+md-q{
+    display: inline-block;
+    border-left: 5px solid gainsboro;
+    margin-bottom: -2px;
+    padding: 4px;
+    margin-top: -2px;
+    margin-left: 2px;
+}
+
+marked{
+    display: inline-block;
+    background-color:yellow;
+}

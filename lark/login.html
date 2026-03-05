@@ -1,0 +1,13 @@
+<html><body></body></html>
+<script>
+//if (navigator.userAgent.includes('Lark')) {
+//document.body.innerHTML="<h1 align='center'>����ʹ�÷����¼�����Ժ�</h1>"
+  const appId = 'client_id';
+  var hostname = window.location.hostname;
+  //alert("https://"+hostname+"/auth/callback")
+  const redirectUri = encodeURIComponent("https://"+hostname+"/namelist/lark/auth/callback");
+  
+ // alert("https://open.feishu.cn/open-apis/authen/v1/index?client_id="+appId+"&redirect_uri="+redirectUri)
+  window.location.href = "https://open.feishu.cn/open-apis/authen/v1/index?client_id="+appId+"&redirect_uri="+redirectUri+"&scope=contact:user.employee:readonly contact:user.employee_id:readonly";
+//}
+</script>	
